@@ -1,0 +1,87 @@
+INFO - [♥] Lovely 0.8.0
+INFO - [♥] Game directory is at "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Balatro"
+INFO - [♥] Writing logs to "C:\\Users\\Lorenz\\AppData\\Roaming\\Balatro\\Mods\\lovely\\log"
+INFO - [♥] Using mod directory at "C:\\Users\\Lorenz\\AppData\\Roaming\\Balatro\\Mods"
+INFO - [♥] Cleaning up dumps directory at "C:\\Users\\Lorenz\\AppData\\Roaming\\Balatro\\Mods\\lovely\\dump"
+INFO - [♥] Initialization complete in 90ms
+INFO - [♥] Applied 9 patches to 'main.lua'
+INFO - [♥] Applied 5 patches to 'engine/controller.lua'
+INFO - [♥] Applied 15 patches to 'back.lua'
+INFO - [♥] Applied 7 patches to 'tag.lua'
+INFO - [♥] Applied 2 patches to 'engine/moveable.lua'
+INFO - [♥] Applied 2 patches to 'engine/sprite.lua'
+INFO - [♥] Applied 2 patches to 'engine/animatedsprite.lua'
+INFO - [♥] Applied 67 patches to 'functions/misc_functions.lua'
+INFO - [♥] Applied 36 patches to 'game.lua'
+INFO - [♥] Applied 1 patch to 'globals.lua'
+INFO - [♥] Applied 5 patches to 'engine/ui.lua'
+INFO - [♥] Applied 91 patches to 'functions/UI_definitions.lua'
+INFO - [♥] Applied 49 patches to 'functions/state_events.lua'
+INFO - [♥] Applied 117 patches to 'functions/common_events.lua'
+INFO - [♥] Applied 51 patches to 'functions/button_callbacks.lua'
+INFO - [♥] Applied 186 patches to 'card.lua'
+INFO - [♥] Applied 10 patches to 'cardarea.lua'
+INFO - [♥] Applied 37 patches to 'blind.lua'
+INFO - [♥] Applied 2 patches to 'engine/text.lua'
+INFO - [G] Failed to connect to the debug server
+INFO - [G] 2025-10-02 21:47:57 :: DEBUG :: DebugConsole :: Steamodded Debug Socket started !
+INFO - [G] 2025-10-02 21:47:57 :: INFO  :: SMODS :: Steamodded v1.0.0~BETA-0711a
+INFO - [♥] Applied 9 patches to 'engine/sound_manager.lua'
+INFO - [♥] Applied 1 patch to 'engine/save_manager.lua'
+INFO - [G] 2025-10-02 21:47:58 :: INFO  :: TIMER :: [0000] Injected Fonts in 0.001 ms
+INFO - [G] 2025-10-02 21:47:58 :: INFO  :: TIMER :: [0000] Injected Language in 0.001 ms
+INFO - [G] 2025-10-02 21:47:58 :: INFO  :: TIMER :: [0000] Injected [INTERNAL] in 0.757 ms
+INFO - [G] 2025-10-02 21:47:58 :: INFO  :: TIMER :: [0002] Injected Atlas in 261.880 ms
+INFO - [G] 2025-10-02 21:47:58 :: INFO  :: TIMER :: [0001] Injected Sound in 0.216 ms
+INFO - [G] 2025-10-02 21:47:58 :: INFO  :: TIMER :: [0008] Injected Stake in 0.148 ms
+INFO - [G] 2025-10-02 21:47:58 :: INFO  :: TIMER :: [0004] Injected Rarity in 0.015 ms
+INFO - [G] 2025-10-02 21:47:58 :: INFO  :: TIMER :: [0004] Injected ObjectType in 0.032 ms
+INFO - [G] 2025-10-02 21:47:58 :: INFO  :: TIMER :: [0050] Injected Center in 0.286 ms
+INFO - [G] 2025-10-02 21:47:58 :: INFO  :: TIMER :: [0007] Injected Undiscovered Sprite in 0.020 ms
+INFO - [G] 2025-10-02 21:47:58 :: INFO  :: TIMER :: [0002] Injected Blind in 0.016 ms
+INFO - [G] 2025-10-02 21:47:58 :: INFO  :: TIMER :: [0004] Injected Seal in 0.129 ms
+INFO - [G] 2025-10-02 21:47:58 :: INFO  :: TIMER :: [0004] Injected Suit in 0.089 ms
+INFO - [G] 2025-10-02 21:47:58 :: INFO  :: TIMER :: [0013] Injected Rank in 0.141 ms
+INFO - [G] 2025-10-02 21:47:58 :: INFO  :: TIMER :: [0028] Injected DeckSkin in 0.128 ms
+INFO - [G] 2025-10-02 21:47:58 :: INFO  :: TIMER :: [0012] Injected PokerHand in 0.105 ms
+INFO - [G] 2025-10-02 21:47:58 :: INFO  :: TIMER :: [0020] Injected Challenge in 0.051 ms
+INFO - [G] 2025-10-02 21:47:58 :: INFO  :: TIMER :: [0000] Injected Tag in 0.002 ms
+INFO - [G] 2025-10-02 21:47:58 :: INFO  :: TIMER :: [0004] Injected Sticker in 0.080 ms
+INFO - [G] 2025-10-02 21:47:58 :: INFO  :: TIMER :: [0000] Injected Shader in 0.001 ms
+INFO - [G] 2025-10-02 21:47:58 :: INFO  :: TIMER :: [0002] Injected Keybind in 0.018 ms
+INFO - [G] 2025-10-02 21:47:58 :: INFO  :: TIMER :: [0000] Injected Achievement in 0.027 ms
+INFO - [G] 2025-10-02 21:47:58 :: INFO  :: TIMER :: [0002] Injected nil in 0.018 ms
+INFO - [G] 2025-10-02 21:47:58 :: INFO  :: TIMER :: [0021] Injected Draw Step in 0.095 ms
+INFO - [G] 2025-10-02 21:47:58 :: INFO  :: TIMER :: [0000] Injected [INTERNAL] in 0.002 ms
+INFO - [G] LONG DT @ 98: 0.071634977570628
+INFO - [G] LONG DT @ 98: 0.062489062056502
+INFO - [G] LONG DT @ 98: 0.064807249645201
+INFO - [G] LONG DT @ 98: 0.054767559716162
+INFO - [G] LONG DT @ 98: 0.058837627772928
+INFO - [G] LONG DT @ 98: 0.053906042218345
+INFO - [G] LONG DT @ 99: 0.1
+INFO - [G] LONG DT @ 99: 0.08318604
+INFO - [G] LONG DT @ 99: 0.069877691999999
+INFO - [G] LONG DT @ 99: 0.059240333599999
+INFO - [G] LONG DT @ 99: 0.050723846879999
+INFO - [G] LONG DT @ 99: 0.059953930333742
+INFO - [G] LONG DT @ 99: 0.051272044266993
+INFO - [G] LONG DT @ 100: 0.072545204183775
+INFO - [G] LONG DT @ 100: 0.060394263347021
+INFO - [G] LONG DT @ 100: 0.050901190677618
+INFO - [G] LONG DT @ 103: 0.058678183572081
+INFO - [G] LONG DT @ 103: 0.053104366857665
+INFO - [G] LONG DT @ 103: 0.1
+INFO - [G] LONG DT @ 103: 0.086221620000002
+INFO - [G] LONG DT @ 103: 0.075155575999999
+INFO - [G] LONG DT @ 103: 0.066435500800002
+INFO - [G] LONG DT @ 103: 0.065280500640001
+INFO - [G] LONG DT @ 103: 0.058383780512001
+INFO - [G] LONG DT @ 103: 0.052930964409599
+INFO - [G] LONG DT @ 117: 0.069046827965873
+INFO - [G] LONG DT @ 117: 0.0614694423727
+INFO - [G] LONG DT @ 117: 0.055502693898159
+INFO - [G] LONG DT @ 117: 0.050498655118528
+INFO - [G] LONG DT @ 118: 0.057378657919076
+INFO - [G] LONG DT @ 118: 0.05207844633526
+INFO - [G] LONG DT @ 118: 0.053882477068207

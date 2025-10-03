@@ -1,0 +1,238 @@
+INFO - [♥] Lovely 0.8.0
+INFO - [♥] Game directory is at "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Balatro"
+INFO - [♥] Writing logs to "C:\\Users\\Lorenz\\AppData\\Roaming\\Balatro\\Mods\\lovely\\log"
+INFO - [♥] Using mod directory at "C:\\Users\\Lorenz\\AppData\\Roaming\\Balatro\\Mods"
+INFO - [♥] Cleaning up dumps directory at "C:\\Users\\Lorenz\\AppData\\Roaming\\Balatro\\Mods\\lovely\\dump"
+INFO - [♥] Initialization complete in 661ms
+INFO - [♥] Applied 10 patches to 'main.lua'
+INFO - [♥] Applied 5 patches to 'engine/controller.lua'
+INFO - [♥] Applied 16 patches to 'back.lua'
+INFO - [♥] Applied 7 patches to 'tag.lua'
+INFO - [♥] Applied 3 patches to 'engine/moveable.lua'
+INFO - [♥] Applied 2 patches to 'engine/sprite.lua'
+INFO - [♥] Applied 2 patches to 'engine/animatedsprite.lua'
+INFO - [♥] Applied 69 patches to 'functions/misc_functions.lua'
+WARN - [♥] Pattern 'self.GAME.pseudorandom.seed = hash_seed(self.GAME.pseudorandom.seed)' on target 'game.lua' for pattern patch from BalatroMultiplayer-0.2.18\lovely\TheOrder.toml resulted in no matches
+INFO - [♥] Applied 44 patches to 'game.lua'
+INFO - [♥] Applied 2 patches to 'globals.lua'
+INFO - [♥] Applied 5 patches to 'engine/ui.lua'
+INFO - [♥] Applied 106 patches to 'functions/UI_definitions.lua'
+INFO - [♥] Applied 54 patches to 'functions/state_events.lua'
+WARN - [♥] Pattern '''
+WARN - [♥]         attention_text({
+WARN - [♥]           text = text..tostring(math.abs(mod)),''' on target 'functions/common_events.lua' for pattern patch from BalatroMultiplayer-0.2.18\lovely\decks.toml resulted in 3 matches, wanted 1
+WARN - [♥] Ignoring excess matches
+INFO - [♥] Applied 134 patches to 'functions/common_events.lua'
+INFO - [♥] Applied 54 patches to 'functions/button_callbacks.lua'
+INFO - [♥] Applied 201 patches to 'card.lua'
+INFO - [♥] Applied 12 patches to 'cardarea.lua'
+INFO - [♥] Applied 37 patches to 'blind.lua'
+INFO - [♥] Applied 2 patches to 'engine/text.lua'
+INFO - [♥] Applied 3 patches to '=[SMODS _ "src/utils.lua"]'
+INFO - [♥] Applied 1 patch to '=[SMODS _ "src/overrides.lua"]'
+INFO - [♥] Applied 1 patch to '=[SMODS _ "src/game_object.lua"]'
+INFO - [G] Failed to connect to the debug server
+INFO - [G] 2025-10-03 14:30:56 :: DEBUG :: DebugConsole :: Steamodded Debug Socket started !
+INFO - [G] 2025-10-03 14:30:56 :: INFO  :: SMODS :: Steamodded v1.0.0~BETA-0711a
+INFO - [♥] Applied 9 patches to 'engine/sound_manager.lua'
+INFO - [♥] Applied 1 patch to 'engine/save_manager.lua'
+INFO - [G] 2025-10-03 14:30:57 :: INFO  :: Loader :: Valid JSON file found
+INFO - [G] 2025-10-03 14:30:57 :: DEBUG :: MULTIPLAYER :: Resetting lobby options
+INFO - [G] 2025-10-03 14:30:57 :: DEBUG :: MULTIPLAYER :: Resetting game states
+INFO - [G] 2025-10-03 14:30:57 :: TRACE :: MULTIPLAYER :: Client sent message: connect
+INFO - [G] 2025-10-03 14:30:57 :: INFO  :: TIMER :: [0000] Injected Fonts in 0.001 ms
+INFO - [G] 2025-10-03 14:30:57 :: INFO  :: TIMER :: [0000] Injected Language in 0.001 ms
+INFO - [G] 2025-10-03 14:30:57 :: INFO  :: TIMER :: [0000] Injected [INTERNAL] in 8.573 ms
+INFO - [G] 2025-10-03 14:30:58 :: INFO  :: TIMER :: [0044] Injected Atlas in 504.074 ms
+INFO - [G] 2025-10-03 14:30:58 :: INFO  :: TIMER :: [0001] Injected Sound in 4.810 ms
+INFO - [G] 2025-10-03 14:30:58 :: INFO  :: TIMER :: [0011] Injected Stake in 0.198 ms
+INFO - [G] 2025-10-03 14:30:58 :: INFO  :: TIMER :: [0004] Injected Rarity in 0.014 ms
+INFO - [G] 2025-10-03 14:30:58 :: INFO  :: TIMER :: [0004] Injected ObjectType in 0.045 ms
+INFO - [G] 2025-10-03 14:30:58 :: INFO  :: TIMER :: [0122] Injected Center in 0.503 ms
+INFO - [G] 2025-10-03 14:30:58 :: INFO  :: TIMER :: [0007] Injected Undiscovered Sprite in 0.045 ms
+INFO - [G] 2025-10-03 14:30:58 :: INFO  :: TIMER :: [0003] Injected Blind in 0.049 ms
+INFO - [G] 2025-10-03 14:30:58 :: INFO  :: TIMER :: [0004] Injected Seal in 0.104 ms
+INFO - [G] 2025-10-03 14:30:58 :: INFO  :: TIMER :: [0004] Injected Suit in 0.057 ms
+INFO - [G] 2025-10-03 14:30:58 :: INFO  :: TIMER :: [0013] Injected Rank in 0.054 ms
+INFO - [G] 2025-10-03 14:30:58 :: INFO  :: TIMER :: [0028] Injected DeckSkin in 0.237 ms
+INFO - [G] 2025-10-03 14:30:58 :: INFO  :: TIMER :: [0012] Injected PokerHand in 0.084 ms
+INFO - [G] 2025-10-03 14:30:58 :: INFO  :: TIMER :: [0034] Injected Challenge in 0.105 ms
+INFO - [G] 2025-10-03 14:30:58 :: INFO  :: TIMER :: [0001] Injected Tag in 0.012 ms
+INFO - [G] 2025-10-03 14:30:58 :: INFO  :: TIMER :: [0006] Injected Sticker in 0.081 ms
+INFO - [G] 2025-10-03 14:30:58 :: INFO  :: TIMER :: [0000] Injected Shader in 0.002 ms
+INFO - [G] 2025-10-03 14:30:58 :: INFO  :: TIMER :: [0002] Injected Keybind in 0.055 ms
+INFO - [G] 2025-10-03 14:30:58 :: INFO  :: TIMER :: [0000] Injected Achievement in 0.033 ms
+INFO - [G] 2025-10-03 14:30:58 :: INFO  :: TIMER :: [0002] Injected nil in 0.086 ms
+INFO - [G] 2025-10-03 14:30:58 :: INFO  :: TIMER :: [0022] Injected Draw Step in 0.084 ms
+INFO - [G] 2025-10-03 14:30:58 :: INFO  :: TIMER :: [0000] Injected [INTERNAL] in 11.207 ms
+INFO - [G] 2025-10-03 14:30:58 :: INFO  :: TIMER :: [0009] Injected nil in 0.022 ms
+INFO - [G] 2025-10-03 14:30:58 :: INFO  :: TIMER :: [0003] Injected nil in 0.023 ms
+INFO - [G] 2025-10-03 14:30:58 :: TRACE :: MULTIPLAYER :: Client got connected message:  (action: connected) 
+INFO - [G] 2025-10-03 14:30:58 :: TRACE :: MULTIPLAYER :: Client sent message: action:username,username:Guest~1,modHash:
+INFO - [G] 2025-10-03 14:30:58 :: TRACE :: MULTIPLAYER :: Client got version message:  (action: version) 
+INFO - [G] 2025-10-03 14:30:58 :: TRACE :: MULTIPLAYER :: Client sent message: action:version,version:0.2.18-MULTIPLAYER
+INFO - [G] 2025-10-03 14:30:58 :: TRACE :: MULTIPLAYER :: Client sent message: action:username,username:Guest~1,modHash:preview=false;unlocked=true;encryptID=13950466447.13;serversideConnectionID=df86e1c3;Lovely-0.8.0;Multiplayer-0.2.18;Steamodded-1.0.0~BETA-0711a;TheOrder-MultiplayerIntegration
+INFO - [G] 2025-10-03 14:31:11 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:p_mp_standard_giga
+INFO - [G] 2025-10-03 14:31:30 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Steel Card
+INFO - [G] 2025-10-03 14:31:31 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Mult
+INFO - [G] 2025-10-03 14:31:32 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Mult
+INFO - [G] 2025-10-03 14:31:33 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Default Base
+INFO - [G] 2025-10-03 14:31:52 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:6
+INFO - [G] 2025-10-03 14:31:55 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Buffoon Pack
+INFO - [G] 2025-10-03 14:31:55 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-4
+INFO - [G] 2025-10-03 14:31:58 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Zany Joker
+INFO - [G] 2025-10-03 14:32:00 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Standard Pack
+INFO - [G] 2025-10-03 14:32:00 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-4
+INFO - [G] 2025-10-03 14:32:03 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Default Base
+INFO - [G] 2025-10-03 14:32:47 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:5
+INFO - [G] 2025-10-03 14:32:51 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Standard Pack
+INFO - [G] 2025-10-03 14:32:51 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-4
+INFO - [G] 2025-10-03 14:32:55 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Gold Card
+INFO - [G] LONG DT @ 172: 0.051017577642153
+INFO - [G] 2025-10-03 14:33:40 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:6
+INFO - [G] 2025-10-03 14:33:44 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Arcana Pack
+INFO - [G] 2025-10-03 14:33:44 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-4
+INFO - [G] 2025-10-03 14:33:51 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:The Lovers
+INFO - [G] 2025-10-03 14:34:12 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:7
+INFO - [G] 2025-10-03 14:34:17 :: TRACE :: MULTIPLAYER :: Client sent message: action:boughtCardFromShop,card:Jupiter,cost:3
+INFO - [G] 2025-10-03 14:34:17 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-3
+INFO - [G] 2025-10-03 14:34:17 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Jupiter
+INFO - [G] 2025-10-03 14:34:59 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:7
+INFO - [G] 2025-10-03 14:35:01 :: TRACE :: MULTIPLAYER :: Client sent message: action:boughtCardFromShop,card:Jupiter,cost:3
+INFO - [G] 2025-10-03 14:35:01 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-3
+INFO - [G] 2025-10-03 14:35:01 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Jupiter
+INFO - [G] 2025-10-03 14:35:05 :: TRACE :: MULTIPLAYER :: Client sent message: action:boughtCardFromShop,card:Odd Todd,cost:4
+INFO - [G] 2025-10-03 14:35:05 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-4
+INFO - [G] 2025-10-03 14:35:06 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Standard Pack
+INFO - [G] 2025-10-03 14:35:06 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-4
+INFO - [G] 2025-10-03 14:35:09 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Lucky Card
+INFO - [G] 2025-10-03 14:35:34 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:9
+INFO - [G] 2025-10-03 14:35:37 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Standard Pack
+INFO - [G] 2025-10-03 14:35:37 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-4
+INFO - [G] 2025-10-03 14:35:40 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Lucky Card
+INFO - [G] 2025-10-03 14:35:41 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Jumbo Standard Pack
+INFO - [G] 2025-10-03 14:35:41 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-6
+INFO - [G] 2025-10-03 14:35:44 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Default Base
+INFO - [G] 2025-10-03 14:35:52 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:The Hanged Man
+INFO - [G] 2025-10-03 14:35:57 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:The Hanged Man
+INFO - [G] 2025-10-03 14:36:04 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Death
+INFO - [G] 2025-10-03 14:36:22 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:4
+INFO - [G] 2025-10-03 14:36:28 :: TRACE :: MULTIPLAYER :: Client sent message: action:boughtCardFromShop,card:Riff-raff,cost:6
+INFO - [G] 2025-10-03 14:36:28 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-6
+INFO - [G] 2025-10-03 14:36:44 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:3
+INFO - [G] 2025-10-03 14:36:48 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:8
+INFO - [G] 2025-10-03 14:36:51 :: TRACE :: MULTIPLAYER :: Client sent message: action:boughtCardFromShop,card:Jupiter,cost:3
+INFO - [G] 2025-10-03 14:36:51 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-3
+INFO - [G] 2025-10-03 14:36:51 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Jupiter
+INFO - [G] 2025-10-03 14:36:54 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Standard Pack
+INFO - [G] 2025-10-03 14:36:54 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-4
+INFO - [G] 2025-10-03 14:36:57 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Default Base
+INFO - [G] 2025-10-03 14:37:02 :: TRACE :: MULTIPLAYER :: Client sent message: action:soldCard,card:Odd Todd
+INFO - [G] 2025-10-03 14:37:02 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:2
+INFO - [G] 2025-10-03 14:37:03 :: TRACE :: MULTIPLAYER :: Client sent message: action:soldCard,card:Zany Joker
+INFO - [G] 2025-10-03 14:37:03 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:2
+INFO - [G] 2025-10-03 14:37:29 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:7
+INFO - [G] 2025-10-03 14:37:33 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Arcana Pack
+INFO - [G] 2025-10-03 14:37:33 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-4
+INFO - [G] 2025-10-03 14:37:43 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:The Moon
+INFO - [G] 2025-10-03 14:37:48 :: TRACE :: MULTIPLAYER :: Client sent message: action:soldCard,card:Walkie Talkie
+INFO - [G] 2025-10-03 14:37:49 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:2
+INFO - [G] 2025-10-03 14:37:50 :: TRACE :: MULTIPLAYER :: Client sent message: action:soldCard,card:Jolly Joker
+INFO - [G] 2025-10-03 14:37:50 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:1
+INFO - [G] 2025-10-03 14:38:37 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:The Fool
+INFO - [G] 2025-10-03 14:38:39 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:The Moon
+INFO - [G] 2025-10-03 14:38:53 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:9
+INFO - [G] 2025-10-03 14:38:55 :: TRACE :: MULTIPLAYER :: Client sent message: action:boughtCardFromShop,card:Obelisk,cost:0
+INFO - [G] 2025-10-03 14:38:58 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Standard Pack
+INFO - [G] 2025-10-03 14:38:58 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-4
+INFO - [G] 2025-10-03 14:39:02 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Default Base
+INFO - [G] 2025-10-03 14:39:04 :: TRACE :: MULTIPLAYER :: Client sent message: action:rerollShop,cost:5
+INFO - [G] 2025-10-03 14:39:04 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-5
+INFO - [G] 2025-10-03 14:39:07 :: TRACE :: MULTIPLAYER :: Client sent message: action:soldCard,card:Egg
+INFO - [G] 2025-10-03 14:39:07 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:5
+INFO - [G] 2025-10-03 14:39:08 :: TRACE :: MULTIPLAYER :: Client sent message: action:soldCard,card:Runner
+INFO - [G] 2025-10-03 14:39:08 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:2
+INFO - [G] 2025-10-03 14:39:12 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Magic Trick
+INFO - [G] 2025-10-03 14:39:12 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-10
+INFO - [G] 2025-10-03 14:39:22 :: TRACE :: MULTIPLAYER :: Client sent message: action:soldCard,card:Delayed Gratification
+INFO - [G] 2025-10-03 14:39:22 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:2
+INFO - [G] 2025-10-03 14:39:29 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:The Fool
+INFO - [G] 2025-10-03 14:39:51 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:The Moon
+INFO - [G] 2025-10-03 14:39:55 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:3
+INFO - [G] 2025-10-03 14:40:06 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Ceres
+INFO - [G] 2025-10-03 14:40:08 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:11
+INFO - [G] 2025-10-03 14:40:14 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Buffoon Pack
+INFO - [G] 2025-10-03 14:40:14 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-4
+INFO - [G] 2025-10-03 14:40:18 :: TRACE :: MULTIPLAYER :: Client sent message: action:soldCard,card:Juggler
+INFO - [G] 2025-10-03 14:40:19 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:2
+INFO - [G] 2025-10-03 14:40:23 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Lucky Cat
+INFO - [G] 2025-10-03 14:40:26 :: TRACE :: MULTIPLAYER :: Client sent message: action:soldCard,card:Devious Joker
+INFO - [G] 2025-10-03 14:40:26 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:3
+INFO - [G] 2025-10-03 14:40:27 :: TRACE :: MULTIPLAYER :: Client sent message: action:rerollShop,cost:5
+INFO - [G] 2025-10-03 14:40:27 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-5
+INFO - [G] 2025-10-03 14:40:30 :: TRACE :: MULTIPLAYER :: Client sent message: action:boughtCardFromShop,card:Certificate,cost:6
+INFO - [G] 2025-10-03 14:40:30 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-6
+INFO - [G] 2025-10-03 14:40:31 :: TRACE :: MULTIPLAYER :: Client sent message: action:rerollShop,cost:6
+INFO - [G] 2025-10-03 14:40:31 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-6
+INFO - [G] 2025-10-03 14:41:32 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:3
+INFO - [G] 2025-10-03 14:41:41 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:12
+INFO - [G] 2025-10-03 14:41:43 :: TRACE :: MULTIPLAYER :: Client sent message: action:soldCard,card:Golden Joker
+INFO - [G] 2025-10-03 14:41:43 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:3
+INFO - [G] 2025-10-03 14:41:46 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Jumbo Standard Pack
+INFO - [G] 2025-10-03 14:41:46 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-6
+INFO - [G] 2025-10-03 14:41:50 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Default Base
+INFO - [G] 2025-10-03 14:41:51 :: TRACE :: MULTIPLAYER :: Client sent message: action:boughtCardFromShop,card:Shoot the Moon,cost:5
+INFO - [G] 2025-10-03 14:41:51 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-5
+INFO - [G] 2025-10-03 14:41:54 :: TRACE :: MULTIPLAYER :: Client sent message: action:soldCard,card:Riff-raff
+INFO - [G] 2025-10-03 14:41:54 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:3
+INFO - [G] 2025-10-03 14:41:56 :: TRACE :: MULTIPLAYER :: Client sent message: action:rerollShop,cost:5
+INFO - [G] 2025-10-03 14:41:56 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-5
+INFO - [G] 2025-10-03 14:41:58 :: TRACE :: MULTIPLAYER :: Client sent message: action:boughtCardFromShop,card:Mail-In Rebate,cost:4
+INFO - [G] 2025-10-03 14:41:58 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-4
+INFO - [G] 2025-10-03 14:41:59 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Jumbo Arcana Pack
+INFO - [G] 2025-10-03 14:41:59 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-6
+INFO - [G] 2025-10-03 14:42:10 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Death
+INFO - [G] 2025-10-03 14:42:35 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:3
+INFO - [G] 2025-10-03 14:42:35 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:20
+INFO - [G] 2025-10-03 14:42:44 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:5
+INFO - [G] 2025-10-03 14:43:14 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:The Sun
+INFO - [G] 2025-10-03 14:43:27 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:9
+INFO - [G] 2025-10-03 14:43:29 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Jumbo Spectral Pack
+INFO - [G] 2025-10-03 14:43:29 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-6
+INFO - [G] 2025-10-03 14:43:40 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Incantation
+INFO - [G] 2025-10-03 14:43:53 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Arcana Pack
+INFO - [G] 2025-10-03 14:43:53 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-4
+INFO - [G] 2025-10-03 14:43:58 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:The Emperor
+INFO - [G] 2025-10-03 14:44:00 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:The Hermit
+INFO - [G] 2025-10-03 14:44:00 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:20
+INFO - [G] 2025-10-03 14:44:03 :: TRACE :: MULTIPLAYER :: Client sent message: action:rerollShop,cost:5
+INFO - [G] 2025-10-03 14:44:03 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-5
+INFO - [G] 2025-10-03 14:44:05 :: TRACE :: MULTIPLAYER :: Client sent message: action:soldCard,card:Mail-In Rebate
+INFO - [G] 2025-10-03 14:44:05 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:2
+INFO - [G] 2025-10-03 14:44:06 :: TRACE :: MULTIPLAYER :: Client sent message: action:boughtCardFromShop,card:Judgement,cost:3
+INFO - [G] 2025-10-03 14:44:06 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-3
+INFO - [G] 2025-10-03 14:44:08 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Judgement
+INFO - [G] 2025-10-03 14:44:10 :: TRACE :: MULTIPLAYER :: Client sent message: action:rerollShop,cost:6
+INFO - [G] 2025-10-03 14:44:10 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-6
+INFO - [G] 2025-10-03 14:44:12 :: TRACE :: MULTIPLAYER :: Client sent message: action:soldCard,card:Golden Joker
+INFO - [G] 2025-10-03 14:44:12 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:3
+INFO - [G] 2025-10-03 14:44:13 :: TRACE :: MULTIPLAYER :: Client sent message: action:boughtCardFromShop,card:Space Joker,cost:5
+INFO - [G] 2025-10-03 14:44:13 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-5
+INFO - [G] 2025-10-03 14:44:14 :: TRACE :: MULTIPLAYER :: Client sent message: action:rerollShop,cost:7
+INFO - [G] 2025-10-03 14:44:14 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-7
+INFO - [G] 2025-10-03 14:44:15 :: TRACE :: MULTIPLAYER :: Client sent message: action:rerollShop,cost:8
+INFO - [G] 2025-10-03 14:44:15 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-8
+INFO - [G] 2025-10-03 14:44:17 :: TRACE :: MULTIPLAYER :: Client sent message: action:boughtCardFromShop,card:Temperance,cost:3
+INFO - [G] 2025-10-03 14:44:17 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-3
+INFO - [G] 2025-10-03 14:44:17 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:Temperance
+INFO - [G] 2025-10-03 14:44:17 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:20
+INFO - [G] 2025-10-03 14:44:18 :: TRACE :: MULTIPLAYER :: Client sent message: action:rerollShop,cost:9
+INFO - [G] 2025-10-03 14:44:18 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-9
+INFO - [G] 2025-10-03 14:44:19 :: TRACE :: MULTIPLAYER :: Client sent message: action:rerollShop,cost:10
+INFO - [G] 2025-10-03 14:44:19 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-10
+INFO - [G] 2025-10-03 14:44:21 :: TRACE :: MULTIPLAYER :: Client sent message: action:boughtCardFromShop,card:The Hermit,cost:3
+INFO - [G] 2025-10-03 14:44:21 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:-3
+INFO - [G] 2025-10-03 14:44:21 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:The Hermit
+INFO - [G] 2025-10-03 14:44:21 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:20
+INFO - [G] 2025-10-03 14:44:37 :: TRACE :: MULTIPLAYER :: Client sent message: action:moneyMoved,amount:20
+INFO - [G] 2025-10-03 14:45:01 :: TRACE :: MULTIPLAYER :: Client sent message: action:usedCard,card:The Star
