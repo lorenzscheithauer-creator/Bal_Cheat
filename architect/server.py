@@ -1,80 +1,85 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 import logging
+from logging.handlers import RotatingFileHandler
+from typing import Optional
 
-# Configure logging
-logging.basicConfig(level=logging.INFO)
+# --- Logging Setup ---
+# Note: The file-based logging had issues in the environment.
+# We keep the code but primarily rely on Uvicorn's console output for verification.
+log_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(name)s - %(message)s')
+log_file = 'server.log'
+file_handler = RotatingFileHandler(log_file, maxBytes=1024*1024, backupCount=5)
+file_handler.setFormatter(log_formatter)
 logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+logger.addHandler(file_handler)
 
+# --- Pydantic Models ---
 class BotState(BaseModel):
-    """
-    Represents the state of the bot.
-    """
+    """Represents the full state of the bot, updated by the Lua mod."""
     status: str = "stopped"
     risk: float = 0.5
     game_state: dict = {}
 
-# Create a global state object
+class Command(BaseModel):
+    """Represents a command sent from the GUI."""
+    command: str
+    value: Optional[float] = None
+
+# --- Global State Management ---
+# This holds the latest state received from the Lua mod.
 bot_state = BotState()
+# This holds the last command sent by the GUI, to be picked up by the Lua mod.
+last_command: Optional[dict] = None
 
 app = FastAPI()
+
+# --- API Endpoints ---
 
 @app.get("/state", response_model=BotState)
 async def get_state():
     """
-    Retrieves the current state of the bot.
+    (For GUI) Retrieves the current, complete state of the bot as reported by the Lua mod.
     """
-    logger.info("Current state requested.")
+    logger.info(f"GUI requested state: {bot_state}")
     return bot_state
 
-@app.post("/start", response_model=BotState)
-async def start_bot():
+@app.post("/state", response_model=BotState)
+async def update_state(new_state: BotState):
     """
-    Sets the bot's status to 'running'.
+    (For Lua Mod) Receives a full state update from the game mod and updates the global state.
     """
-    logger.info("Received start command.")
-    bot_state.status = "running"
+    global bot_state
+    bot_state = new_state
+    logger.info(f"Received state update from mod: {new_state}")
     return bot_state
 
-@app.post("/stop", response_model=BotState)
-async def stop_bot():
+@app.post("/command", response_model=Command)
+async def receive_command(command: Command):
     """
-    Sets the bot's status to 'stopped'.
+    (For GUI) Receives a command from the GUI and stores it to be picked up by the mod.
     """
-    logger.info("Received stop command.")
-    bot_state.status = "stopped"
-    return bot_state
+    global last_command
+    last_command = command.dict()
+    logger.info(f"GUI sent command: {last_command}")
+    return command
 
-@app.post("/risk", response_model=BotState)
-async def set_risk(risk_update: dict):
+@app.get("/command")
+async def get_command():
     """
-    Updates the bot's risk level.
-    Expects a JSON with a "risk" key.
+    (For Lua Mod) Allows the game mod to poll for the latest command from the GUI.
+    Clears the command after retrieval to ensure it's processed only once.
     """
-    new_risk = risk_update.get("risk")
-    if new_risk is not None and isinstance(new_risk, (float, int)):
-        logger.info(f"Updating risk to {new_risk}")
-        bot_state.risk = float(new_risk)
-    else:
-        logger.warning(f"Invalid risk value provided: {new_risk}")
-    return bot_state
-
-@app.post("/game_state", response_model=BotState)
-async def update_game_state(new_game_state: dict):
-    """
-    Updates the game state data from the Lua mod.
-    """
-    logger.info(f"Received game state update: {new_game_state}")
-    bot_state.game_state = new_game_state
-    return bot_state
+    global last_command
+    if last_command:
+        command_to_send = last_command
+        last_command = None  # Clear command after sending
+        logger.info(f"Sending command to mod: {command_to_send}")
+        return command_to_send
+    return {}
 
 @app.get("/")
 async def root():
-    """
-    Root endpoint to confirm the server is running.
-    """
+    """Root endpoint to confirm the server is running."""
     return {"message": "Architect API server is running."}
-
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8000)
