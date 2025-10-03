@@ -4,10 +4,19 @@
 local M = {}
 
 -- Placeholder for Joker data. This would be populated with actual game data.
+-- In a real implementation, this data would be more extensive and likely loaded from a file.
 local JOKER_DATA = {
-    ["Joker"] = { tags = {"additive_mult"} },
-    ["Joker (Foil)"] = { tags = {"additive_mult", "foil"} },
-    -- ... more jokers
+    ["Joker"] = { name = "Joker", edition = "Normal", value = 4, sell_value = 2, tags = {"additive_mult"} },
+    ["Greedy Joker"] = { name = "Greedy Joker", edition = "Normal", value = 0, sell_value = 2, tags = {"economy", "mult_additive_on_condition"} },
+    ["Lusty Joker"] = { name = "Lusty Joker", edition = "Normal", value = 0, sell_value = 2, tags = {"economy", "mult_additive_on_condition"} },
+    ["Wrathful Joker"] = { name = "Wrathful Joker", edition = "Normal", value = 0, sell_value = 2, tags = {"economy", "mult_additive_on_condition"} },
+    ["Gluttonous Joker"] = { name = "Gluttonous Joker", edition = "Normal", value = 0, sell_value = 2, tags = {"economy", "mult_additive_on_condition"} },
+    ["Jolly Roger"] = { name = "Jolly Roger", edition = "Normal", value = 0, sell_value = 4, tags = {"x_mult_scaling"} },
+    ["Blueprint"] = { name = "Blueprint", edition = "Normal", value = 0, sell_value = 3, tags = {"copy_joker"} },
+    ["Brainstorm"] = { name = "Brainstorm", edition = "Normal", value = 0, sell_value = 4, tags = {"copy_joker"} },
+    ["Card Sharp"] = { name = "Card Sharp", edition = "Normal", value = 0, sell_value = 2, tags = {"x_mult_scaling"} },
+    ["8 Ball"] = { name = "8 Ball", edition = "Normal", value = 0, sell_value = 2, tags = {"card_generation"} },
+    ["The Duo"] = { name = "The Duo", edition = "Normal", value = 0, sell_value = 4, tags = {"x_mult"} }
 }
 
 --- Calculates a synergy score for a given set of jokers.
